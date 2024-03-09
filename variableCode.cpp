@@ -18,6 +18,6 @@ int main()
     b=a;
     a=c;
     cout<<"Value of a : "<< a<<endl;
-    cout<<"Value of b : "<< b<<endl; 
+    cout<<"Value of b : "<<b<<endl; 
     return 0;
 }
