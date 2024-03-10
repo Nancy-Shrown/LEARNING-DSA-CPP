@@ -3,10 +3,14 @@ using namespace std;
 
 int main()
 {
-    //ques6
-
-    int a=4,b=5;
-    a++,--b;
-    cout<<a++<<" "<<b--<<endl;
+    cout<<"Alpha"<<endl;
+    cout<<"Intern"<<endl;
     return 0;
 }
+
+
+
+/* int takes 4 bytes
+   bool takes 1 byte
+   float takes 4 bytes
+*/ 
