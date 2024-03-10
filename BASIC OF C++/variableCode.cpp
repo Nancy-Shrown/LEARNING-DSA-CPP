@@ -10,9 +10,9 @@ int main()
     //swap two variables//
     int a,b;
     cout<<"a:";
-    cin>>a;
-    cout<<"b";
-    cin>>b;
+    cin>> a;
+    cout<<"b:";
+    cin>> b;
     int c;
     c=b;
     b=a;
