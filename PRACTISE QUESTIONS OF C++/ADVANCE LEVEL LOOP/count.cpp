@@ -3,10 +3,13 @@ using namespace std;
 
 int main()
 {
-    int num = 20901;
+    int num;
+    cout<<"Enter any number : ";
+    cin>>num;
     int digit = 0;
     
-    while(num>0){
+    while(num>0)
+    {
         digit++;
         num = num/10;
     }
