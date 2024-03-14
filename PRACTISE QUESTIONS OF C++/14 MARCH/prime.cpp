@@ -2,21 +2,27 @@
 using namespace std;
 
 int main()
- {
+{
     int m,n,i,j;
-    Scanner prime= new Scanner(System.in); 
- m= prime.nextInt(); 
- n= prime.nextInt();
-  for (i = m; i <= n; i++)
-  { for (j = 2; j <= i; j++) 
-  { if (i % j == 0)
-   { break; } } if
-    (i==j) 
-    { System.out.println(j); } } 
+    cout<<"Enter upper limt :";
+    cin>>m;
+    cout<<"Enter lower limt :";
+    cin>>n;
 
-    while (j <= 10) {
-        cout << j << endl;
-        j = j + 1;
+    for (i = m; i <= n; i++)
+    {
+      for (j = 2; j <= i; j++) 
+       { 
+          if (i % j == 0)
+          {
+            break; 
+          }
+       }
+      if
+      (i==j) 
+      {
+        cout<<j<<endl; 
+      } 
     }
     return 0;
 }
