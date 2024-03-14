@@ -6,3 +6,7 @@ int main()
 while ('1' < '2')
 cout << "In while loop" << endl;
 }
+
+/* OUTPUT
+CONTINOUS LOOP OF "IN WHILE LOOP"
+*/
