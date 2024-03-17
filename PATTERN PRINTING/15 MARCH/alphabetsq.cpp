@@ -7,7 +7,6 @@ using namespace std;
          ABCD
          ABCD
 */
-
 int main()
 {
     int i,j;
