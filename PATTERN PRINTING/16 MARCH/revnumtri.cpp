@@ -1,19 +1,19 @@
 #include<iostream>
 using namespace std;
 /*print
-         1
-         12
-         123
          1234
+         123
+         12
+         1
 */
 int main()
 {
    int i,j,n;
     cout<<"Enter number :";
     cin>>n;       
-   for(i = 1;i <=n;i++)     
+   for(i = n; i >= 1; --i)     
    {         
-      for(j = 1;j<=i;j++)         
+      for(j = 1;j<=i;++j)         
       {             
          cout << j;         
       }             

@@ -11,8 +11,10 @@
 using namespace std;
 int main()
 {
-    int i,j;
-    for (i = 1; i <= 4; i++)
+    int i,j,n;
+    cout<<"Enter number :";
+    cin>>n;
+    for (i = 1; i <= n; i++)
     {
        int number = 1;
         for (j = 1; j <= i; j++)
