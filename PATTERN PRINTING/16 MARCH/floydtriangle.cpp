@@ -1,18 +1,17 @@
 #include <iostream>
 using namespace std;
-
 /*
 PRINT FLOYD TRIANGLE PATTERN
 1
 2 3
 4 5 6
-7 8 9 10*/
-
+7 8 9 10
+*/
 
 int main()
 {
     int n;
-    cout << "Enter the number of rows" << endl;
+    cout << "Enter number : ";
     cin >> n;
     int count = 1;
     for (int i = 1; i <= n; i++)
