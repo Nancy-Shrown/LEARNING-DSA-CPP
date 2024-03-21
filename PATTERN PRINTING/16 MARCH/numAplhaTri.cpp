@@ -16,7 +16,6 @@ int main()
     for(i=1;i<=n;i++)
     {
         char ch='A';
-        int count=1;
         for(j=1;j<=i;j++)
         {
             if(i%2==0)
@@ -26,8 +25,7 @@ int main()
             }
             else
             {
-            cout<<count;
-            count++;
+            cout<<j;
             }
         }
         cout<<endl;
