@@ -21,7 +21,5 @@ int main()
     }  
   }
   cout<<"Numbers greater than x :"<<count;
-
-  
   return 0;
 }
