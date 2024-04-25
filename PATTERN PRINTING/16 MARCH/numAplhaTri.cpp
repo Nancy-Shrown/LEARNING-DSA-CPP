@@ -7,7 +7,6 @@ using namespace std;
     ABCD
     12345
 */
-
 int main()
 {
     int i,j,n;
