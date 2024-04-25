@@ -1,0 +1,25 @@
+#include<iostream>
+#include<vector>
+using namespace std;
+int main()
+{
+    vector<int> v;
+
+    //for loop
+    for(int i=0;i<5;i++)
+    {
+        int element;
+        cin>>elememt;
+        v.push_back(element);
+    }
+    for(int i=0;i<v.size();i++)
+    {
+        cout<<v[i]<<" ";
+    }
+    cout<<endl;
+
+    //for each loop
+    
+
+    return 0;
+}
