@@ -9,7 +9,7 @@ int main()
     for(int i=0;i<5;i++)
     {
         int element;
-        cin>>elememt;
+        cin>>element;
         v.push_back(element);
     }
     for(int i=0;i<v.size();i++)
@@ -19,7 +19,7 @@ int main()
     cout<<endl;
 
     //for each loop
-    
+
 
     return 0;
 }
