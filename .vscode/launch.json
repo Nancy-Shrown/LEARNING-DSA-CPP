@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": ".",
-      "program": "build/Debug/outDebug",
+      "cwd": "c:/Users/VINOD/Desktop/ALPHA/DSA-SORTING",
+      "program": "c:/Users/VINOD/Desktop/ALPHA/DSA-SORTING/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
